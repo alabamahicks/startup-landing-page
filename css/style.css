@@ -425,3 +425,55 @@ td,
 th {
   padding: 0;
 }
+
+/*******************started Thinkful adds here*/
+
+/* temporary highlights, remove before shipping */
+body {
+    background-color: LightGray;
+}
+div {
+    border: 1px solid Chocolate;
+}
+
+/*******************started Karma adds here*/
+/* typography at bottom */
+
+.navigation-container{
+  width: 100%;
+  height: 60px;
+  position: fixed;
+  background-color: white;
+}
+
+.logo {
+  width: 50px;
+  height: 50px;
+  background-size: contain;
+  background-image: url("../images/karma-logo.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  display: inline-block;
+}
+.navigation-list{
+  float: right;
+}
+
+.navigation-list > ul > li {
+  display: inline-block;
+  margin: auto;
+}
+/* typography */
+.navigation-list > ul > li {
+  font-family: arial, sans-serif;
+  font-size: 1em;
+  color: #666666; /*gray*/
+}
+.navigation-list > ul > li:hover{
+  color: #333333;/*darkgray*/
+}
+.navigation-list > ul > li:nth-child(1){
+  color: #333333;/*darkgray*/
+  font-weight: bolder;
+}
+

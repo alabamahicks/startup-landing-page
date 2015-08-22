@@ -437,6 +437,13 @@ div {
 }
 
 /*******************started Karma adds here*/
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
 /* Navigation Section */
 .top-navigation {
     background-color: #fff;
@@ -445,12 +452,38 @@ div {
     width: 970px;
     height: 70px;
     margin: 0 auto; /* always centered */
+    padding: 0 1rem; /*works for fine-grain*/
 }
 
 .top-navigation > .content > img {
-      margin-left: 15px;
-    margin-top: 20px
+/*      margin-left: 15px;
+*/    margin-top: 15px
 }
+
+.links {
+  float: right;
+  font-family: 'Roboto', sans-serif; 
+  font-size: 16px; 
+  color: #838994; 
+  letter-spacing: 0.03em;
+  margin-top: 25px;
+}
+
+.links > li {
+  display: inline-block;
+  margin-left: 20px;
+}
+
+.top-navigation .links > .active {
+    color: #4c5058;
+    font-weight: 500;
+}
+
+.top-navigation .links >  li:hover {
+    color: #333333;
+    cursor: pointer;
+}
+
 /*/******************* my attempts */
 /* typography at bottom */
 

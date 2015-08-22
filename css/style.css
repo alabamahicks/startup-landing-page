@@ -447,6 +447,10 @@ div {
     margin: 0 auto; /* always centered */
 }
 
+.top-navigation > .content > img {
+      margin-left: 15px;
+    margin-top: 20px
+}
 /*/******************* my attempts */
 /* typography at bottom */
 

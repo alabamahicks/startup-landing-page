@@ -511,6 +511,25 @@ div {
     margin-top: 1.25rem;
     font-size: 1.563rem;
 }
+/*/******************* section-intro ****************/
+.big-button {
+  display: block;
+  margin:0 auto;
+  width: 9.688rem;
+  text-shadow: none;
+  border-style: none;
+  border-radius: 4px;
+  padding: 16px 26px;
+  line-height: 1.33;
+  background-color: #f15a29;
+  border-color: #f15a29;
+  font-size:;
+  color: white;
+}
+.big-button:hover{
+  background-color: ;
+  cursor: pointer;
+}
 
 
 /*/******************* my attempts */

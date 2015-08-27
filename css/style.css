@@ -5,10 +5,10 @@ html {
   box-sizing: inherit;
 }
 .content {
-  box-sizing: border-box;
-    width: 970px;
-    margin: 0 auto; /* always centered */
     padding: 0 1rem; /*works for fine-grain*/
+    margin: 0 auto; /* always centered */
+    min-width: 970px;
+
 }
 
 
@@ -527,8 +527,9 @@ div {
   color: white;
 }
 .big-button:hover{
-  background-color: ;
-  cursor: pointer;
+    background-color: #d9400e;
+    border-color: #cf3d0e;
+    cursor: pointer;
 }
 
 

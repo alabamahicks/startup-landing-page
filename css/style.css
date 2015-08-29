@@ -4,13 +4,6 @@ html {
 *, *:before, *:after {
   box-sizing: inherit;
 }
-.content {
-    padding: 0 1rem; /*works for fine-grain*/
-    margin: 0 auto; /* always centered */
-    min-width: 970px;
-
-}
-
 
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 
@@ -450,6 +443,11 @@ body {
 div {
     border: 1px solid Chocolate;
 }
+.content {
+    padding: 0 1rem; /*works for fine-grain*/
+    margin: 0 auto; /* always centered */
+    min-width: 970px;
+}
 
 /*******************started Karma adds here*/
 
@@ -507,7 +505,8 @@ div {
     margin-top: 17.5rem;
     font-size: 3.125rem;
 }
-.introduction h3 {
+.introduction h3,
+.links h3 {
     margin-top: 1.25rem;
     font-size: 1.563rem;
 }
@@ -531,6 +530,41 @@ div {
     border-color: #cf3d0e;
     cursor: pointer;
 }
+/*/******************* section-links ****************/
+.cases h2 {
+    font-size: 2.75rem;
+    margin: 1.625rem 0px 3.125rem;
+    font-weight: 300;
+}
+.cases .devices h3 {
+    font-weight: 400;
+    font-size: 1.563rem;
+    margin: 2.5rem 0px 1.875rem;
+}
+.cases .content {
+    margin-top: 7.875rem;
+    color: rgb(29, 30, 33);
+    text-align: center;
+}
+.cases .devices > li {
+    width: 33.3333333%;
+    display: inline-block;
+    /* styles to assist with debugging */
+    border: 1px solid black;
+    box-sizing: border-box;
+    height: 4em;
+}
+.cases .devices > li { 
+  display: inline-block;
+
+}
+.devices img {
+  width: 127px;
+  height: auto;
+}
+/*/******************* footer ****************/
+
+
 
 
 /*/******************* my attempts */

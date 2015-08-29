@@ -531,6 +531,10 @@ div {
     cursor: pointer;
 }
 /*/******************* section-links ****************/
+.cases {
+  background-color: #fff;
+}
+
 .cases h2 {
     font-size: 2.75rem;
     margin: 1.625rem 0px 3.125rem;
@@ -547,16 +551,19 @@ div {
     text-align: center;
 }
 .cases .devices > li {
-    width: 33.3333333%;
+   /* width: 33.3333333%;
     display: inline-block;
-    /* styles to assist with debugging */
+     styles to assist with debugging 
     border: 1px solid black;
     box-sizing: border-box;
-    height: 4em;
+    height: 4em;*/
 }
 .cases .devices > li { 
   display: inline-block;
+}
 
+.cases .caption {
+  padding: 5px;
 }
 .devices img {
   width: 127px;

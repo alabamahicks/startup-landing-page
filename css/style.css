@@ -533,6 +533,8 @@ div {
 /*/******************* section-links ****************/
 .cases {
   background-color: #fff;
+  overflow: hidden;
+  padding-bottom: 5rem;
 }
 
 .cases h2 {
@@ -549,6 +551,9 @@ div {
     margin-top: 7.875rem;
     color: rgb(29, 30, 33);
     text-align: center;
+}
+.cases .devices {
+  -webkit-padding-start: 0;
 }
 .cases .devices > li {
    /* width: 33.3333333%;
@@ -569,8 +574,39 @@ div {
   width: 127px;
   height: auto;
 }
-/*/******************* footer ****************/
+/*/******************* social ****************/
+.social {
+    background-color: #fff;
+    overflow: auto;
+    padding-bottom: 9.375rem;
+    text-align: center;
+}
+.social .icons {
+  -webkit-padding-start: 0;
+}
+.social h5 {
+  font-weight: normal;
+}
 
+.social .icons > li {
+    border-radius: 1.25rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    display: inline-block;
+    margin: 1.25rem 5px;
+    border: 1px solid #eaebec;
+    padding: 0.625rem 0;
+    text-align: center;
+}
+.social .twitter {
+  color: #55acee;
+}
+.social .facebook {
+  color: #4c66a4
+}
+.social .instagram {
+  color: #3f729b;
+}
 
 
 
